@@ -4,7 +4,7 @@
 
 <div id="cover" align="center">
 
-<img src="https://assets.dio.me/Xg9xdrMBydvrpSTIpaPFpMNlzKT4nnAjdzho_fYnGIM/f:webp/h:120/q:80/L3RyYWNrcy80ZTllNjhmMi1jMDA4LTQyODMtYTQ0ZC1lMjFkMWUyMWViZjgucG5n" alt="Santander 2026 - AI Java Back-end" width="40%"/>
+<img src="https://assets.santanderopenacademy.com/uploaded/programs/887839b8-8dd3-43e4-8da6-90075e0c6f96" alt="Santander 2026 - AI Java Back-end" width="40%"/>
 
 </div>
 
