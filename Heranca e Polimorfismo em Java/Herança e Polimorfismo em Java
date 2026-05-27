@@ -1,0 +1,38 @@
+Herança
+
+    É a extensão de uma classe.
+
+    Tem a super classe da hierarquia (pai) e as subclasses (filho)
+
+    O filho estende parte do pai.
+
+    Usa a palavra 'extends' no filho e escreva da onde esta sendo estendido
+
+Polimorfismo
+
+    A capacidade que tem de ter um objeto podendo se comportar como outros objetos que estejam ligados em uma hierarquia.
+
+    Ter um objeto de um tipo e poder ter dentro dele pode ter vários tipos
+
+    abstract = Para restringir uma instância de uma classe, só colocar a palavra 'abstract' entre 'public class'. Ela nao pode ser instanciada.
+
+    final = Para restringir usando 'final' entre 'public class' das classes que vai ter acesso, informa que ninguem mais pode estender essa classe. Ela sera a ultima da hierarquia e não vai permitir a extensao dela.
+
+    sealed = Define que uma classe vai ter algumas regras para poder permitir subclasses. Coloca a palavra 'permits' com qual classe que pode herdar, depois do nome da classe. Ela nao pode ser herdada em outras classes. Definir essas classes permitidas como 'non-sealed' nelas, entre 'public class'. Se usar swicth, nao precisa colocar o 'default' no final.
+
+    instanceof = Verifica se um objeto é uma instância de uma determinada classe ou de uma super classe (se está sendo estendido)
+
+    Record não pode ter cláusula 'extends'. Nao pode ter propriedades dentro, a menos que elas sejam estaticas
+
+Sobrescrita
+
+    Sobrescreve o comportamento da classe para definir outro comportamento
+    Usar antes a anotação '@Override'
+
+protected = não permite acesso de fora de sua classe a menos que a classe que esteja tentando fazer acesso a esse código, esteja herdando dessa classe. Consegue acessar propriedades quando está no mesmo package
+
+Sobrecarga
+
+    Tem 2 met odos diferentes com assinaturas diferentes que também terão comportamentos diferentes
+
+    Pode ter quantas quiser, com tanto que elas não tenham assinaturas iguais
