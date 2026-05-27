@@ -60,9 +60,9 @@ Material - [Potencializando estudos carreira com IA](https://github.com/digitali
 
 <div id="table" align="center">
 
-| Aulas |
-| :----: | 
-| []() |
+| Aulas | Desafios |
+| :----: | :----: |
+| []() | [Pratique Lógica e Fundamentos em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java) |
 | []() |
 | []() |
 | []() |
