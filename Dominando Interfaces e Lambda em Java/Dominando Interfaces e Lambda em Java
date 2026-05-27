@@ -1,0 +1,80 @@
+Interfaces
+
+    Só permite met odos abstratos
+
+    private e protected não são permitidos
+
+    Trabalham com propriedades 'final', nao precisando ser declarada
+
+    Todas as propriedades sao 'public', 'static' e 'final' obrigatoriamente
+
+    Classe anonima
+
+        Na instancia ja declara ela
+
+    Consegue estender uma classe ou uma classe abstrata
+
+    Permite que tenha mais de uma interface sendo implementada
+
+    Não pode ter definiçoes de construtores
+
+    Podem ser implementada por records
+
+    Met odos concretos devem ser 'default'
+
+    Records só podem implementar interfaces, enquanto classes podem implementar 1 classe por vez e quantas interfaces quiser
+
+Interfaces Funcionais
+
+    É a base da criação do Lambda
+
+    Não é obrigatoria usar '@FunctionalInterface'
+
+    Tem que ter 1 met odo para implementar, mas pode ter vários met odos default
+
+Lambda
+
+    Quando for somente de 1 linha, pode usar -> sem {}.
+
+    Quando tiver um return, precisa deixar com {}
+
+    Quando fizer impressao do objeto alvo: System.out::println
+
+
+Lista
+
+    Tipo especial que armazene tipos dele.
+
+Keywords
+
+    Modificador de acesso
+
+        default
+
+            Somente com o class... é uma classe default. Não consegue chamar ela fora do package, porque nao é publico. Se tirar o 'private' da classe, também não vai ter acesso
+
+        protected
+
+            Parecido com o default mas só tem acesso quem tem a herança com a classe ou no mesmo package
+
+        private
+
+            Ele não permite acesso de nada de fora da classe
+
+        static
+
+            Ao usar na variavel, nao precisa usar 'this....'
+
+            É um valor compartilhado entre as instancias
+
+        final
+
+            Não pode fazer alteração dessa variavel
+
+            Nas propriedades, precisa definir um valor de entrada
+
+            A classe não pode ser herda
+
+    Importação estatica
+
+        Importa direto o met odo, mas que esteja como 'static'
