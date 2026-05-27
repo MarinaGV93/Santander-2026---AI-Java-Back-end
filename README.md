@@ -50,6 +50,8 @@
 
 Antes de começar, você precisa ter instalado em sua máquina um editor para trabalhar com o código, como [IntelliJ](https://www.jetbrains.com/pt-br/idea/).
 
+Material - [Potencializando estudos carreira com IA](https://github.com/digitalinnovationone/potencializando-estudos-carreira-com-ia)
+
 <br>
 
 ## 📚 Aulas
