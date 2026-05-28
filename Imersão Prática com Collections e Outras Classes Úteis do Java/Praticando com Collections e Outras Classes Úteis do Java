@@ -1,0 +1,29 @@
+Trabalhando com Listas e Arrays
+
+    Lista
+
+        Pode declarar com ou sem tipo
+
+        .add = para adicionar elementos
+
+        Sempre adiciona no final da lista
+
+        .get = recuperar
+
+        Não consegue trabalhar com o tipo int, só com objeto Integer
+
+
+    Array
+
+        Precisa definir um tamanho
+
+        ...[0] = atribuir valores conforme o indice
+
+        ...{...} = inicializa com valores
+
+        Coleções que precisa fazer várias interações
+
+    LinkedList
+
+        Quando precisa fazer muita inclusao e remoçao
+
