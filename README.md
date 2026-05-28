@@ -65,7 +65,7 @@ Material - [Potencializando estudos carreira com IA](https://github.com/digitali
 | [Java e a Arte da Abstracao com Classes e Encapsulamento](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) | [Pratique Lógica e Fundamentos em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java) |
 | [Heranca e Polimorfismo em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Heranca%20e%20Polimorfismo%20em%20Java) |
 | [Dominando Interfaces e Lambda em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Dominando%20Interfaces%20e%20Lambda%20em%20Java) |
-| []() |
+| [Imersão Prática com Collections e Outras Classes Úteis do Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Imersão%20Prática%20com%20Collections%20e%20Outras%20Classes%20Úteis%20do%20Java) |
 <!--
 | []() |
 | []() |
