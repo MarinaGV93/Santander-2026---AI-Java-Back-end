@@ -1,0 +1,33 @@
+Entendendo Exceptions
+
+        FileOutputStream()
+
+            Para tratamento de arquivos
+
+        throws
+
+            Abaixo de Exception, tem exceções que serão checadas. São exceções que são verificadas no tempo de compilação.
+            Para lançar uma exceção.
+
+        RuntimeException
+
+            Classe pai de exceções que não são verificadas (não são checadas), como: AritmeticException
+            Tudo que for ele para baixo, nao será  obrigado a tratar
+
+        Throwable
+
+            Tende a objetos que sao lançados pela classe.
+            Pai de todas as exceções
+
+        Throwable (pai) > Exception/Error (erros) > RuntimeException
+
+
+
+    Tratar
+
+        Declarar ... throws .... no método:
+
+            private static void teste() throws FileNotFoundException
+
+            Fica a cargo do metodo a cima tratar
+

@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Pratique_Logica_e_Fundamentos_em_Java" />
+        <module name="Debugging_e_o_Tratamento_de_Excecoes_em_Java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Pratique_Logica_e_Fundamentos_em_Java" target="24" />
       <module name="Verificador_de_Saldo_para_Transacoes_Bancarias_em_Java" target="24" />
     </bytecodeTargetLevel>
   </component>
