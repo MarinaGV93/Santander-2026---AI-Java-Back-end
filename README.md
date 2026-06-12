@@ -62,10 +62,10 @@ Material - [Potencializando estudos carreira com IA](https://github.com/digitali
 
 | Aulas | Desafios |
 | :----: | :----: |
-| [Java e a Arte da Abstracao com Classes e Encapsulamento](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) | [Saudação Personalizada Para Clientes BankEasy](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java/src/main/java/Sauda%C3%A7%C3%A3o_Personalizada_Para_Clientes_BankEasy) |
-| [Heranca e Polimorfismo em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Heranca%20e%20Polimorfismo%20em%20Java) | [Verificador de Saldo para Transações Bancárias em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java/src/main/java/Verificador_de_Saldo_para_Transa%C3%A7%C3%B5es_Banc%C3%A1rias_em_Java)|
+| [Java e a Arte da Abstracao com Classes e Encapsulamento](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) | [Pratique Lógica e Fundamentos em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java/src/main/java/Pratique%20L%C3%B3gica%20e%20Fundamentos%20em%20Java) |
+| [Heranca e Polimorfismo em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Heranca%20e%20Polimorfismo%20em%20Java) | []()|
 | [Dominando Interfaces e Lambda em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Dominando%20Interfaces%20e%20Lambda%20em%20Java) | []() |
-| [Imersão Prática com Collections e Outras Classes Úteis do Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Imersão%20Prática%20com%20Collections%20e%20Outras%20Classes%20Úteis%20do%20Java) |
+| [Imersão Prática com Collections e Outras Classes Úteis do Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Imersão%20Prática%20com%20Collections%20e%20Outras%20Classes%20Úteis%20do%20Java) | []() |
 | [Debugging e o Tratamento de Excecoes em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Debugging%20e%20o%20Tratamento%20de%20Excecoes%20em%20Java) |
 <!--
 | []() |
