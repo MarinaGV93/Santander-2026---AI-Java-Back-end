@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente/annotation-processor" vcs="Git" />
   </component>
 </project>
