@@ -1,0 +1,28 @@
+Um acrônimo que cita 5 princípios fundamentais para o desenvolvimento de software.
+
+1. Single Responsibility Principle (SRP) - Responsabilidade Única
+
+    As suas classes devem ser especialista em uma unica tarefa ao inves de ter classes que realizam N tarefas
+
+2. Open/Closed Principle (OCP) - Aberto/Fechar
+
+    As partes que compoem o software devem ser fechados para modificações, mas devem ser abertos para extensoes
+
+3. Liskov Substitution Principle (LSP) - Substituicao de Liskov
+    Objetos de um tipo base devem ser substituiveis por instancias de umm subtipo
+
+4. Interface Segregation Principle (ISP) - Segregacao de Interface
+
+    Interfaces com muitas funcionalidades não coesas devem ser divididas em interfaces menores
+
+5. Dependency Inversion Principle (DIP) - Inversao de Dependencia
+
+    Módulos do sistema deve depender de interfacces e não de implementações específicas
+
+Vantagens
+
+    - Manutenção simplificada
+    - Reutilização de código
+    - Legibilidade aprimorada
+    - Redução de erros
+    - Baixo acoplamento

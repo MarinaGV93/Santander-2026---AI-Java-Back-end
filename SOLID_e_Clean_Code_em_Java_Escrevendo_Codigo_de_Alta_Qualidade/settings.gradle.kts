@@ -1,0 +1,1 @@
+rootProject.name = "SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade"
