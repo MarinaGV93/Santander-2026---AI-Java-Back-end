@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="br.com.dio" target="24" />
       <module name="Pratique_Logica_e_Fundamentos_em_Java" target="24" />
       <module name="Verificador_de_Saldo_para_Transacoes_Bancarias_em_Java" target="24" />
     </bytecodeTargetLevel>

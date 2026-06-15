@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente.iml" filepath="$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Santander 2026 - AI Java Back end.iml" filepath="$PROJECT_DIR$/.idea/Santander 2026 - AI Java Back end.iml" />
     </modules>
   </component>

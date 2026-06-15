@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente/br.com.dio" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
