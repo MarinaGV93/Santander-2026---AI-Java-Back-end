@@ -2,17 +2,44 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Debugging_e_o_Tratamento_de_Excecoes_em_Java" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.main" />
+        <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.test" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente" target="24" />
+      <module name="Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente.main" target="24" />
+      <module name="Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente.test" target="24" />
       <module name="br.com.dio" target="24" />
+      <module name="JDBCExplorando_Persistencia_de_Dados_com_Java" target="24" />
+      <module name="JDBCExplorando_Persistencia_de_Dados_com_Java.flyway.conf.main" target="24" />
+      <module name="JDBCExplorando_Persistencia_de_Dados_com_Java.flyway.conf.test" target="24" />
+      <module name="JDBCExplorando_Persistencia_de_Dados_com_Java.main" target="24" />
+      <module name="JDBCExplorando_Persistencia_de_Dados_com_Java.test" target="24" />
       <module name="Pratique_Logica_e_Fundamentos_em_Java" target="24" />
+      <module name="SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade" target="24" />
+      <module name="SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade.main" target="24" />
+      <module name="SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade.test" target="24" />
       <module name="Verificador_de_Saldo_para_Transacoes_Bancarias_em_Java" target="24" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java" options="-Xlint:unchecked -Xlint:deprecation --add-opens jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+      <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.main" options="-Xlint:unchecked -Xlint:deprecation --add-opens jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+      <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.test" options="-Xlint:unchecked -Xlint:deprecation --add-opens jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+    </option>
   </component>
 </project>

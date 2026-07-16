@@ -1,0 +1,7 @@
+Criar as pastas de migrations
+
+    resources
+        -> db
+            -> migration
+                -> V1__create_employee_table.sql (sempre começa com V, que significa version)
+                //Vanomesdiahoraminutos__create_employee_table.sql

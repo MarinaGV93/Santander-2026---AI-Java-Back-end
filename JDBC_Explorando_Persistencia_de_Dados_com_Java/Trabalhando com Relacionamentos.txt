@@ -1,0 +1,80 @@
+Faz a partir do  id (dado unico)
+
+1:1
+
+    1 tabela para 1 registro
+    Tanto faz o id que for colocar na outra tabela
+
+1:N
+
+    1 tabela para N registros
+    "1 colaborador pode ter N contatos"
+    O ideal é colocar o ID estrangeiro na tabela que tem N relacionamentos (contatos) e uma lista de contatos na tabela de colaboradores. Pode colocar o ID estrangeiro na tabela de contatos e uma lista de contatos na tabela de colaboradores.
+
+N:N
+
+    N tabelas para N registros
+    "N colaboradores podem ter N contatos"
+    O ideal é criar uma tabela intermediária (tabela de junção) que contenha as chaves estrangeiras das duas tabelas envolvidas no relacionamento. Essa tabela intermediária terá uma chave primária composta pelas chaves estrangeiras das duas tabelas.
+
+N:N composto
+
+    N tabelas para N registros
+    "N colaboradores podem ter N contatos"
+    Coloca atributos na tabela de junção
+    Tem que criar uma entidade para armazenar os atributos
+
+join:
+
+    Une registros de duas ou mais tabelas com base em uma coluna relacionada
+
+    INNER JOIN:
+
+        Retorna registros que possuem correspondência em ambas as tabelas envolvidas na junção. Não precisa de chave estrangeira.
+        Especificar o que quer juntar, depois do ON
+
+        SELECT * FROM employees INNER JOIN contacts ON contacts.employee_id = employees.id
+
+    LEFT JOIN:
+
+        Retorna todos os registros da tabela esquerda e os correspondentes da tabela direita. Se não houver correspondência, retorna NULL.
+        Especificar o que quer juntar, depois do ON
+
+            SELECT * FROM employees LEFT JOIN contacts ON contacts.employee_id = employees.id
+
+    RIGHT JOIN:
+
+        Retorna todos os registros da tabela direita e os correspondentes da tabela esquerda. Se não houver correspondência, retorna NULL.
+        Especificar o que quer juntar, depois do ON
+
+            SELECT * FROM employees RIGHT JOIN contacts ON contacts.employee_id = employees.id
+
+Dar apelidos para as tabelas (alias):
+
+    employees -> e
+    contacts -> c
+
+        SELECT
+
+        //Campos
+        e.name,
+
+        //Renomear (nao precisa colocar o as)
+        c.phone as phone_number
+
+        FROM
+
+        //Tabelas
+        employees e LEFT JOIN contacts c ON
+
+        //Relacionamento
+        c.employee_id = e.id
+
+Integridade Referencial:
+
+
+    Garante que os relacionamentos entre tabelas permaneçam consistentes. Isso significa que, se uma tabela A tem uma chave estrangeira que referencia a tabela B, não é possível inserir um valor na tabela A que não exista na tabela B.
+
+    Exemplo: Se você tem uma tabela de pedidos (orders) que referencia uma tabela de clientes (customers), você não pode adicionar um pedido para um cliente que não existe na tabela de clientes.
+
+    Para manter a integridade referencial, você pode usar restrições como FOREIGN KEY e ON DELETE/ON UPDATE para definir o comportamento quando registros relacionados são excluídos ou atualizados.

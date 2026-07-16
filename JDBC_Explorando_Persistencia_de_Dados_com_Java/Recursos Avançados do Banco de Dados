@@ -1,0 +1,122 @@
+Triggers:
+
+    São gatilhos.
+
+        Inserir:
+
+            //Mudar o delilmitador de linha dos comandos. Nao usa mais
+            //DELIMITER $
+            CREATE TRIGGER tgr_employee_audit_insert
+
+                //Quando esse gatilho vai ser ativado/quando que o banco vai ativar
+                //Depois de inserir um registro
+                AFTER INSERT ON employees
+
+                //Fazer a cada linha que for inserida
+                FOR EACH ROW
+                BEGIN
+
+                //Inserir comandos
+                INSERT INTO employees_audit(
+                    employee_id,
+                    name,
+                    salary,
+                    birthday,
+                    operation
+                    )
+                    VALUES(
+                    //Ao coloca o NEW, informa quer quer pegar o novo registro
+                    NEW.id,
+                    NEW.name,
+                    NEW.salary,
+                    NEW.birthday,
+                    'I'
+                    );
+
+            //Indica onde termina a duração do delimitador
+            END;
+
+        Atualizar:
+
+            CREATE TRIGGER tgr_employee_audit_update BEFORE UPDATE ON employees
+            FOR EACH ROW
+            BEGIN
+                -- Coloca o comando
+                INSERT INTO employees_audit(
+                employee_id,
+                name,
+                old_name,
+                salary,
+                old_salary,
+                birthday,
+                old_birthday,
+                operation
+                )
+                VALUES(
+                NEW.id,
+                NEW.name,
+
+                //Ao coloca o OLD, informa quer quer pegar o registro antigo
+                OLD.name,
+                NEW.salary,
+                OLD.salary,
+                NEW.birthday,
+                OLD.birthday,
+                'U'
+                );
+            -- Indica onde termina a duração do delimitador
+            END;
+
+        Excluir:
+
+            CREATE TRIGGER tgr_employee_audit_delete BEFORE DELETE ON employees
+            FOR EACH ROW
+            BEGIN
+                -- Coloca o comando
+                INSERT INTO employees_audit(
+                employee_id,
+                name,
+                salary,
+                birthday,
+                operation
+                )
+                VALUES(
+                OLD.id,
+                OLD.name,
+                OLD.salary,
+                OLD.birthday,
+                'D'
+                );
+            -- Indica onde termina a duração do delimitador
+            END;
+
+Views:
+
+    São consultas armazenadas no banco de dados que podem ser utilizadas como tabelas virtuais.
+
+        CREATE VIEW view_employee_audit AS
+        SELECT * FROM employees_audit
+        ORDER BY created_at;
+
+    Function:
+
+        Obrigado a retornar um valor, pode ser utilizada em consultas.
+
+    Procedure:
+
+        Pode não retornar valor, pode ser utilizada em consultas.
+
+        IN: de entrada. Somente leitura
+        OUT: de saida. Começam sempre vazios.
+
+Parametrização:
+
+    Trocar o createStatement por prepareStatement, para evitar SQL Injection.
+
+        statement.prepareStatement(
+
+            //SQL
+            "UPDATE employees SET name = ?, salary = ?, birthday = ? WHERE id = ?"
+        )
+
+    Não precisa quando nao tem parametros.

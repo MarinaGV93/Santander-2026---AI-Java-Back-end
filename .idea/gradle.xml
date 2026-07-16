@@ -4,24 +4,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Annotations_em_Java_Marcando_o_Seu_Codigo_de_Maneira_Inteligente/br.com.dio" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade" />
+            <option value="$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java" />
+            <option value="$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/flyway.conf" />
           </set>
         </option>
       </GradleProjectSettings>

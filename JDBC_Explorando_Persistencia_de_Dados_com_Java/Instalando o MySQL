@@ -1,0 +1,63 @@
+Baixe o docker:
+
+
+
+Baixe o DBeaver
+
+Abre o docker
+
+Criar container do MySQL
+
+    No docker, abre o terminal e digite:
+
+        docker run
+        //Nome do container
+        --name mysql-dev \
+
+        //Senha padrão do root
+          -e MYSQL_ROOT_PASSWORD=root \
+
+          //Permite conexão remota
+          -e MYSQL_ROOT_HOST=% \
+
+          //Cria o banco de dados
+          -e MYSQL_DATABASE=jdbc-sample \
+
+          //Porta do container para a porta da máquina
+          -p 3306:3306 \
+
+          //Versão do MySQL
+          -d mysql:8.4 \
+
+          //Permite que a URL de autenticação seja usada com localhost
+          --default-authentication-plugin=mysql_native_password
+
+
+Conecte o MySQL no DBeaver:
+
+    Host: localhost
+    Porta: 3306
+    Username: root
+    Senha: root
+
+    Se o teste der erro, tente:
+
+        Em Driver properties, troque o allowPublicKeyRetrieval para true
+
+Criar o banco de dados no MySQL:
+
+    Na pasta criada, expande e em database, clique com o botão direito e crie o banco de dados
+
+    OU
+
+    create database jdbc-sample;
+
+
+-- Criar ou permitir que o root conecte de qualquer IP (%) com a senha correta
+ALTER USER 'root'@'%' IDENTIFIED BY '';
+
+-- Garantir todos os privilégios ao usuário
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+
+-- Atualizar as permissões do sistema
+FLUSH PRIVILEGES;

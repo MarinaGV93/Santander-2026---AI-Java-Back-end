@@ -4,20 +4,199 @@
     <mappings />
     <preferences />
   </component>
+  <component name="DBNavigator.Project.DataEditorManager">
+    <record-view-column-sorting-type value="BY_INDEX" />
+    <value-preview-text-wrapping value="false" />
+    <value-preview-pinned value="false" />
+  </component>
   <component name="DBNavigator.Project.DatabaseAssistantManager">
-    <assistants />
+    <assistants>
+      <assistant-state connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+        <tools />
+        <mcp-servers />
+      </assistant-state>
+      <assistant-state connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="AVAILABLE" acknowledgement="NONE" selected="true">
+        <tools />
+        <mcp-servers />
+      </assistant-state>
+      <assistant-state connection-id="virtual-mysql-connection" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+        <tools />
+        <mcp-servers />
+      </assistant-state>
+      <assistant-state connection-id="virtual-mysql-connection" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="AVAILABLE" acknowledgement="NONE" selected="true">
+        <tools />
+        <mcp-servers />
+      </assistant-state>
+    </assistants>
     <selection-state>
       <model-selection />
     </selection-state>
   </component>
+  <component name="DBNavigator.Project.DatabaseConsoleManager">
+    <connection id="6af99f0e-870e-4144-9838-bfa865bce9e8">
+      <console name="jdbc-sample" type="STANDARD" schema="mysql" session="Main" />
+    </connection>
+  </component>
+  <component name="DBNavigator.Project.DatabaseEditorStateManager">
+    <last-used-providers />
+  </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
+  </component>
+  <component name="DBNavigator.Project.DatabasePrerequisiteManager">
+    <prerequisites />
+  </component>
+  <component name="DBNavigator.Project.DatabaseSessionManager">
+    <connection id="6af99f0e-870e-4144-9838-bfa865bce9e8" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202606241219__create_employees_audit_table.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607161919__add_access_operation_in_accesses_table.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607021121__add_employee_id_in_employee_audit.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607021027__create_trigger_insert_employee.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="jdbc-sample" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607021136__create_trigger_delete_employee.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607161440__create_accesses_table.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202606221543__create_employee_table.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607021131__create_trigger_update_employee.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607021457__create_procedure_insert_employee.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607021453__create_view_employee_audit.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607131746__create_contact_table.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/src/main/resources/db/migration/V202607161437__create_module_table.sql" connection-id="6af99f0e-870e-4144-9838-bfa865bce9e8" session-id="MAIN" current-schema="mysql" />
+  </component>
+  <component name="DBNavigator.Project.ObjectQuickFilterManager">
+    <last-used-operator value="EQUAL" />
+    <filters />
+  </component>
   <component name="DBNavigator.Project.Settings">
-    <connections />
+    <states>
+      <state category="SECRET_STORAGE_MIGRATION">
+        <migrated value="true" />
+      </state>
+    </states>
+    <connections>
+      <connection source-id="" id="6af99f0e-870e-4144-9838-bfa865bce9e8" active="true" signed="true">
+        <database>
+          <name value="jdbc-sample" />
+          <description value="" />
+          <database-type value="MYSQL" />
+          <config-type value="BASIC" />
+          <database-version value="8.4" />
+          <driver-source value="BUNDLED" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="3306" />
+          <database value="mysql" />
+          <tns-folder value="" />
+          <tns-profile value="" />
+          <server-type value="" />
+          <protocol value="" />
+          <url-parameters />
+          <type value="USER_PASSWORD" />
+          <user value="root" />
+          <token-type value="" />
+          <token-config-file value="" />
+          <token-profile value="" />
+          <adb-compartment-ocid value="" />
+          <adb-database-ocid value="" />
+          <azure-token-database-id-uri value="" />
+          <azure-token-tenant-id value="" />
+          <azure-token-client-id value="" />
+          <azure-token-client-certificate-file value="" />
+          <session-user value="root@172.17.0.1" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="false" />
+          <environment-type value="default" />
+          <connectivity-timeout value="30" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <debugger>
+          <compile-dependencies value="true" />
+          <tcp-host-address value="" />
+          <tcp-port-from value="4000" />
+          <tcp-port-to value="4999" />
+          <jdwp-tunnel-type value="NONE" />
+          <debugger-type value="ASK" />
+          <reverse-ssh-tunnel>
+            <host value="" />
+            <port value="22" />
+            <bind-host value="127.0.0.1" />
+            <bind-port value="0" />
+            <auth-type value="PASSWORD" />
+            <user value="" />
+            <key-file value="" />
+          </reverse-ssh-tunnel>
+        </debugger>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false" hide-audit-columns="false">
+          <object-filters />
+          <object-type-filter use-master-settings="true">
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="JSON_VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="JAVA_CLASS" enabled="true" />
+            <object-type name="JAVA_FIELD" enabled="true" />
+            <object-type name="JAVA_METHOD" enabled="true" />
+            <object-type name="JAVA_RESOURCE" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+            <object-type name="CREDENTIAL" enabled="true" />
+            <object-type name="AI_PROFILE" enabled="true" />
+            <object-type name="AI_MODEL" enabled="true" />
+          </object-type-filter>
+        </object-filters>
+      </connection>
+    </connections>
     <browser-settings>
       <general>
         <display-mode value="TABBED" />
@@ -28,8 +207,6 @@
       </general>
       <filters>
         <object-type-filter>
-          <object-type name="SCHEMA" enabled="true" />
-          <object-type name="USER" enabled="true" />
           <object-type name="ROLE" enabled="true" />
           <object-type name="PRIVILEGE" enabled="true" />
           <object-type name="CHARSET" enabled="true" />
@@ -186,6 +363,7 @@
         <save-changes value="false" />
         <revert-changes value="true" />
         <exit-on-changes value="ASK" />
+        <close-temporary-console value="ASK" />
       </confirmations>
     </code-editor-settings>
     <code-completion-settings>
@@ -214,9 +392,14 @@
             <filter-element type="OBJECT" id="function" selected="true" />
             <filter-element type="OBJECT" id="package" selected="true" />
             <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="java class" selected="true" />
+            <filter-element type="OBJECT" id="java resource" selected="true" />
             <filter-element type="OBJECT" id="dimension" selected="true" />
             <filter-element type="OBJECT" id="cluster" selected="true" />
             <filter-element type="OBJECT" id="dblink" selected="true" />
+            <filter-element type="OBJECT" id="credential" selected="true" />
+            <filter-element type="OBJECT" id="AI profile" selected="true" />
+            <filter-element type="OBJECT" id="AI model" selected="true" />
           </user-schema>
           <public-schema>
             <filter-element type="OBJECT" id="table" selected="false" />
@@ -232,9 +415,14 @@
             <filter-element type="OBJECT" id="function" selected="false" />
             <filter-element type="OBJECT" id="package" selected="false" />
             <filter-element type="OBJECT" id="type" selected="false" />
+            <filter-element type="OBJECT" id="java class" selected="false" />
+            <filter-element type="OBJECT" id="java resource" selected="false" />
             <filter-element type="OBJECT" id="dimension" selected="false" />
             <filter-element type="OBJECT" id="cluster" selected="false" />
             <filter-element type="OBJECT" id="dblink" selected="false" />
+            <filter-element type="OBJECT" id="credential" selected="false" />
+            <filter-element type="OBJECT" id="AI profile" selected="false" />
+            <filter-element type="OBJECT" id="AI model" selected="false" />
           </public-schema>
           <any-schema>
             <filter-element type="OBJECT" id="table" selected="true" />
@@ -250,9 +438,14 @@
             <filter-element type="OBJECT" id="function" selected="true" />
             <filter-element type="OBJECT" id="package" selected="true" />
             <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="java class" selected="true" />
+            <filter-element type="OBJECT" id="java resource" selected="true" />
             <filter-element type="OBJECT" id="dimension" selected="true" />
             <filter-element type="OBJECT" id="cluster" selected="true" />
             <filter-element type="OBJECT" id="dblink" selected="true" />
+            <filter-element type="OBJECT" id="credential" selected="true" />
+            <filter-element type="OBJECT" id="AI profile" selected="true" />
+            <filter-element type="OBJECT" id="AI model" selected="true" />
           </any-schema>
         </basic-filter>
         <extended-filter>
@@ -279,9 +472,14 @@
             <filter-element type="OBJECT" id="function" selected="true" />
             <filter-element type="OBJECT" id="package" selected="true" />
             <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="java class" selected="true" />
+            <filter-element type="OBJECT" id="java resource" selected="true" />
             <filter-element type="OBJECT" id="dimension" selected="true" />
             <filter-element type="OBJECT" id="cluster" selected="true" />
             <filter-element type="OBJECT" id="dblink" selected="true" />
+            <filter-element type="OBJECT" id="credential" selected="true" />
+            <filter-element type="OBJECT" id="AI profile" selected="true" />
+            <filter-element type="OBJECT" id="AI model" selected="true" />
           </user-schema>
           <public-schema>
             <filter-element type="OBJECT" id="table" selected="true" />
@@ -300,6 +498,9 @@
             <filter-element type="OBJECT" id="dimension" selected="true" />
             <filter-element type="OBJECT" id="cluster" selected="true" />
             <filter-element type="OBJECT" id="dblink" selected="true" />
+            <filter-element type="OBJECT" id="credential" selected="true" />
+            <filter-element type="OBJECT" id="AI profile" selected="true" />
+            <filter-element type="OBJECT" id="AI model" selected="true" />
           </public-schema>
           <any-schema>
             <filter-element type="OBJECT" id="table" selected="true" />
@@ -315,9 +516,14 @@
             <filter-element type="OBJECT" id="function" selected="true" />
             <filter-element type="OBJECT" id="package" selected="true" />
             <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="java class" selected="true" />
+            <filter-element type="OBJECT" id="java resource" selected="true" />
             <filter-element type="OBJECT" id="dimension" selected="true" />
             <filter-element type="OBJECT" id="cluster" selected="true" />
             <filter-element type="OBJECT" id="dblink" selected="true" />
+            <filter-element type="OBJECT" id="credential" selected="true" />
+            <filter-element type="OBJECT" id="AI profile" selected="true" />
+            <filter-element type="OBJECT" id="AI model" selected="true" />
           </any-schema>
         </extended-filter>
       </filters>
@@ -399,17 +605,17 @@
     </operation-settings>
     <ddl-file-settings>
       <extensions>
-        <mapping file-type-id="VIEW" extensions="vw" />
-        <mapping file-type-id="TRIGGER" extensions="trg" />
-        <mapping file-type-id="PROCEDURE" extensions="prc" />
-        <mapping file-type-id="FUNCTION" extensions="fnc" />
-        <mapping file-type-id="PACKAGE" extensions="pkg" />
-        <mapping file-type-id="PACKAGE_SPEC" extensions="pks" />
-        <mapping file-type-id="PACKAGE_BODY" extensions="pkb" />
-        <mapping file-type-id="TYPE" extensions="tpe" />
-        <mapping file-type-id="TYPE_SPEC" extensions="tps" />
-        <mapping file-type-id="TYPE_BODY" extensions="tpb" />
-        <mapping file-type-id="JAVA_SOURCE" extensions="sql" />
+        <mapping file-type-id="VIEW" file-name-patterns="*.vw" />
+        <mapping file-type-id="TRIGGER" file-name-patterns="*.trg" />
+        <mapping file-type-id="PROCEDURE" file-name-patterns="*.prc" />
+        <mapping file-type-id="FUNCTION" file-name-patterns="*.fnc" />
+        <mapping file-type-id="PACKAGE" file-name-patterns="*.pkg" />
+        <mapping file-type-id="PACKAGE_SPEC" file-name-patterns="*.pks" />
+        <mapping file-type-id="PACKAGE_BODY" file-name-patterns="*.pkb" />
+        <mapping file-type-id="TYPE" file-name-patterns="*.tpe" />
+        <mapping file-type-id="TYPE_SPEC" file-name-patterns="*.tps" />
+        <mapping file-type-id="TYPE_BODY" file-name-patterns="*.tpb" />
+        <mapping file-type-id="JAVA_SOURCE" file-name-patterns="*.sql" />
       </extensions>
       <general>
         <lookup-ddl-files value="true" />
@@ -419,14 +625,6 @@
         <make-scripts-rerunnable value="true" />
       </general>
     </ddl-file-settings>
-    <assistant-settings>
-      <credential-settings>
-        <credentials />
-      </credential-settings>
-      <profile-settings>
-        <profiles />
-      </profile-settings>
-    </assistant-settings>
     <general-settings>
       <regional-settings>
         <date-format value="MEDIUM" />
@@ -450,5 +648,9 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+    <execution-variable-types />
   </component>
 </project>

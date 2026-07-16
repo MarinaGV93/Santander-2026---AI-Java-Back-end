@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Santander 2026 - AI Java Back end.iml" filepath="$PROJECT_DIR$/.idea/Santander 2026 - AI Java Back end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.main.iml" />
     </modules>
   </component>
 </project>

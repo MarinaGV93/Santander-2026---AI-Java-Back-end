@@ -1,0 +1,36 @@
+Adicionar uma Lib que facilite operações em lote e transações no JDBC:
+
+    implementation("net.datafaker:datafaker:2.11.0")
+
+
+Operações em lote:
+
+    for (var entity : entities) {
+
+    }
+
+    OU
+
+    for (int i = 0; i < entities.size(); i++) {
+
+    }
+
+Transações:
+
+
+    try {
+        connection.setAutoCommit(false); // Desativa o auto-commit
+
+        // Executa operações de banco de dados aqui
+
+        connection.commit(); // Confirma a transação
+    } catch (SQLException e) {
+        connection.rollback(); // Reverte a transação em caso de erro
+
+rollback:
+
+    Reverte as alterações realizadas no banco de dados, quando se trabalha com a conexão configurada como connection.setAutoCommit(false)
+
+commit:
+
+    Grava as alterações realizadas no banco de dados, quando se trabalha com a conexão configurada como connection.setAutoCommit(false)
