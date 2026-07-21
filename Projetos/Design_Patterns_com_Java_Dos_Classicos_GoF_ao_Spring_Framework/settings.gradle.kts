@@ -1,0 +1,1 @@
+rootProject.name = "Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework"

@@ -1,0 +1,8 @@
+No navegador, depois de rodar a aplicação, abra o endereço: http://localhost:8080/swagger-ui.html
+
+1º componente a ser acionado:
+
+    ClienteRestController
+
+        É ele que expoe os endpoints da API.
+        É a interface de consumo da API.

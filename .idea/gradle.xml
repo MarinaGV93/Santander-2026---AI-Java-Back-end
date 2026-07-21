@@ -8,11 +8,14 @@
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Projetos/Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java" />
-            <option value="$PROJECT_DIR$/JDBC_Explorando_Persistencia_de_Dados_com_Java/flyway.conf" />
+            <option value="$PROJECT_DIR$/Projetos/Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework" />
           </set>
         </option>
       </GradleProjectSettings>

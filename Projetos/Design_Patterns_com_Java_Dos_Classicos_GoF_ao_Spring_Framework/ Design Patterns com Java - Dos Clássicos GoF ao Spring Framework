@@ -1,0 +1,44 @@
+Padrões de projetos
+
+    Soluções consolidadas para problemas recorrentes no desenvolvimento e manutenção de software orientados a objetos
+
+Padrões Criacionais:
+
+    singleton:
+
+        Permitir a criação de uma unica instancia de uma classe e fornecer um modo para recupera-la em utilizações posteriores.
+        Tem uy=ma instancia dele mesmo
+        Para que ele possa armazenar a instancia de maneira estatica e prover sempre a mesma instancia dele mesmo.
+
+        Padrões com String:
+
+            @Bean
+                Instancias de classes que são criadas e gerenciadas pelo Spring Framework, que podem ser injetadas em outras classes para promover o reuso e a modularidade do código.
+
+            @Autowired
+
+                Vai ser sempre entregue como um singleton para otimizar o consumo de memória
+
+Padrões Comportamentais:
+
+    strategy:
+
+        Simplificar a variação de algoritmos para a resolução de um mesmo problema.
+        Tem uma interface que encapsula/prove um contrato de um determinado algoritmo e pode ter 1 ou mais implementações que vão disponibilizar variações daquela mesma estrategia de implementação
+
+        Padrões com String:
+
+            @Service
+
+                Indicar que vai ser um componente/elemento injetavel dentro de uma camada de negocios
+
+            @Repository
+
+                Implementar de maneira concreta para mostrar que quer seguir aquela estrategia de implementação dentro da implementação concreta
+
+Padrões Estruturais:
+
+    Facade:
+
+        Prover uma interface que reduza a complexidade (simplifique) nas integrações com subsistemas
+        Criar uma interface mais usual, de uso mais simples, e que o facade consiga abstrair toda a complexidade de integração com um sistema para consumir essa informação de uma forma mais coesa e mais simples.
