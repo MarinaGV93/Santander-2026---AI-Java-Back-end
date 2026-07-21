@@ -60,9 +60,9 @@ Material - [Potencializando estudos carreira com IA](https://github.com/digitali
 
 <div id="table" align="center">
 
-| Aulas | Desafios |
-| :----: | :----: |
-| [Java e a Arte da Abstracao com Classes e Encapsulamento](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) | [Pratique Lógica e Fundamentos em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java/src/main/java/Pratique%20L%C3%B3gica%20e%20Fundamentos%20em%20Java) |
+| Aulas | Desafios | Projetos |
+| :----: | :----: | :----: |
+| [Java e a Arte da Abstracao com Classes e Encapsulamento](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) | [Pratique Lógica e Fundamentos em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java/src/main/java/Pratique%20L%C3%B3gica%20e%20Fundamentos%20em%20Java) | [Design Patterns com Java Dos Classicos GoF ao Spring Framework](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Projetos/Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework)
 | [Heranca e Polimorfismo em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Heranca%20e%20Polimorfismo%20em%20Java) | [Programando com OO em Java Na Prática](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Desafios/Pratique%20Logica%20e%20Fundamentos%20em%20Java/src/main/java/Programando%20com%20OO%20em%20Java%20Na%20Pr%C3%A1tica)|
 | [Dominando Interfaces e Lambda em Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Dominando%20Interfaces%20e%20Lambda%20em%20Java) | []() |
 | [Imersão Prática com Collections e Outras Classes Úteis do Java](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/tree/main/Imersão%20Prática%20com%20Collections%20e%20Outras%20Classes%20Úteis%20do%20Java) | []() |
