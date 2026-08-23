@@ -1,0 +1,44 @@
+Speech-to-Text (STT)
+
+    A transformação. O processo de converter ondas sonoras em texto processável. Onde o áudio não estruturado ganha forma para a máquina entender.
+
+Tool Calling
+
+    A ponte para o domínio. A capacidade da IA de interpretar uma intenção e "chamar" funções Java específicas (Use Cases) para realizar tarefas no mundo real.
+
+Text-to-Speech (TTS)
+
+    A humanização. A síntese de voz. O processo de transformar a resposta da lógica de negócio de volta em uma interação humana e fluida.
+
+Spring AI
+
+    Um ecossitema para incorporar IA
+
+    https://spring.io/projects/spring-ai
+
+    BOM
+
+        Disponibiliza um dicionário de várias dependências que possui e as relacionadas.
+
+    OpenAI
+
+        Precisa de API KEY
+
+        https://platform.openai.com/home > API Keys
+
+        Colocar no application.properties:
+            "spring.ai.openai.api-key=${OPENAI_API_KEY}"
+
+        OU
+
+        Configurações da aplicação que vai rodar
+
+            Estou usando o groq (https://console.groq.com/)
+
+    Chat Model
+
+        Integração com um modelo específico de LLM (OpenAI)
+
+        Faz streaming, que é uma conexão sempre aberta
+
+        Ao criar um teste, entre nas configurações da aplicação que vai rodar e edita o template (inferior esquerdo), colocando Gradle e a mesma variável e valor que está no application.properties (KEY)

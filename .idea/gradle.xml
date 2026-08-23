@@ -12,10 +12,11 @@
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Projetos/Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/budgeting" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../../Gradle/gradle-9.5.1" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Projetos/Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework" />
+            <option value="$PROJECT_DIR$/budgeting" />
           </set>
         </option>
       </GradleProjectSettings>

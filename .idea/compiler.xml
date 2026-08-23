@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="projeto" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,12 +24,19 @@
       <module name="JDBCExplorando_Persistencia_de_Dados_com_Java.main" target="24" />
       <module name="JDBCExplorando_Persistencia_de_Dados_com_Java.test" target="24" />
       <module name="Pratique_Logica_e_Fundamentos_em_Java" target="24" />
+      <module name="projeto" target="17" />
+      <module name="projeto1" target="24" />
+      <module name="projeto1.main" target="24" />
+      <module name="projeto1.test" target="24" />
       <module name="Projetos.main" target="24" />
       <module name="Projetos.test" target="24" />
       <module name="Projetos1" target="24" />
       <module name="SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade" target="24" />
       <module name="SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade.main" target="24" />
       <module name="SOLID_e_Clean_Code_em_Java_Escrevendo_Codigo_de_Alta_Qualidade.test" target="24" />
+      <module name="taskmanager" target="21" />
+      <module name="taskmanager.main" target="21" />
+      <module name="taskmanager.test" target="21" />
       <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java" target="24" />
       <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.main" target="24" />
       <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.test" target="24" />
@@ -39,7 +45,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="budgeting" options="-parameters" />
+      <module name="budgeting.main" options="-parameters" />
+      <module name="budgeting.test" options="-parameters" />
       <module name="projeto" options="-parameters" />
+      <module name="taskmanager" options="-parameters -Xlint:-processing" />
+      <module name="taskmanager.main" options="-parameters -Xlint:-processing" />
+      <module name="taskmanager.test" options="-parameters -Xlint:-processing" />
       <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java" options="-Xlint:unchecked -Xlint:deprecation --add-opens jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
       <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.main" options="-Xlint:unchecked -Xlint:deprecation --add-opens jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
       <module name="tech.ada.java.projetos.JDBCExplorando_Persistencia_de_Dados_com_Java.test" options="-Xlint:unchecked -Xlint:deprecation --add-opens jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-opens jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />

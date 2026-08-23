@@ -1,0 +1,3 @@
+Começa primeiro por aqui.
+
+Classes que sao das regras de negocio

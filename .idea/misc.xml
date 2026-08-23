@@ -12,6 +12,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Projetos/Design_Patterns_com_Java_Dos_Classicos_GoF_ao_Spring_Framework/projeto/pom.xml" />
         <option value="$PROJECT_DIR$/Verificador de Saldo para Transacoes Bancarias em Java/pom.xml" />
       </set>
     </option>
