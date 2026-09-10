@@ -1,0 +1,3 @@
+﻿# Ignorar diretórios de build gerados (evita arquivos compilados no repositório)
+# Ajuda a resolver o erro "Filename too long" no Windows
+**/build/
