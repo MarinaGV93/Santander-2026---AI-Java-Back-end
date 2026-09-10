@@ -3,10 +3,13 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.42/8365263844ebb62398e0dc33057ba10ba472d3b8/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="budgeting.main" />
+        <module name="budgeting.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,9 +48,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="budgeting" options="-parameters" />
-      <module name="budgeting.main" options="-parameters" />
-      <module name="budgeting.test" options="-parameters" />
+      <module name="budgeting" options="-parameters -Xlint:-processing" />
+      <module name="budgeting.main" options="-parameters -Xlint:-processing" />
+      <module name="budgeting.test" options="-parameters -Xlint:-processing" />
       <module name="projeto" options="-parameters" />
       <module name="taskmanager" options="-parameters -Xlint:-processing" />
       <module name="taskmanager.main" options="-parameters -Xlint:-processing" />

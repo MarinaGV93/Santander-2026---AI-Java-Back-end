@@ -1,0 +1,26 @@
+### Transcrição de Áudio (Upload Multipart)
+# Define o método HTTP (POST), o endpoint e a versão do protocolo
+POST http://localhost:8080/api/transcribe HTTP/1.1
+# Header informando envio de formulário com anexo binário e o delimitador
+Content-Type: multipart/form-data; boundary=boundary
+
+# Delimitador de início do campo
+--boundary
+# Metadados: nome esperado pelo Controller ("file") e nome do arquivo
+Content-Disposition: form-data; name="file"; filename="Audio1.mp3"
+
+# Leitura do arquivo binário no disco (use o arquivo existente na pasta)
+< ./src/test/resources/audio/Audio1.mp3
+# Delimitador de encerramento
+--boundary--
+
+### Chat Model (GET com Query Param)
+GET http://localhost:8080/chat/chat-model?prompt=Gere um orçamento em reais
+
+### Chat Client (POST com JSON)
+POST http://localhost:8080/chat/chat-model
+Content-Type: application/json
+
+{
+  "prompt": "Gere um orçamento"
+}

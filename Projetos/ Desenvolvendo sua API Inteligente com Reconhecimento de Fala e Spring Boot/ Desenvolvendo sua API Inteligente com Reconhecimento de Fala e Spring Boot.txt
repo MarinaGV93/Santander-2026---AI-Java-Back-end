@@ -42,3 +42,130 @@ Spring AI
         Faz streaming, que é uma conexão sempre aberta
 
         Ao criar um teste, entre nas configurações da aplicação que vai rodar e edita o template (inferior esquerdo), colocando Gradle e a mesma variável e valor que está no application.properties (KEY)
+
+Rodar Spring Boot
+
+    Pelo terminal:
+
+        .\gradlew.bat bootRun
+
+Testar os endpoints sem a versão paga
+
+    Pelo terminal com curl:
+
+        GET:
+
+            curl.exe http://localhost:8080/caminho-do-seu-endpoint
+
+                curl.exe http://localhost:8080/chat/chat-model
+
+        POST:
+
+            curl.exe -X POST http://localhost:8080/caminho-do-seu-endpoint -H "Content-Type: application/json" -d "{\"message\": \"teste\"}"
+
+                curl.exe -X POST http://localhost:8080/chat/chat-model -H "Content-Type: application/json" -d "{\"message\": \"teste\"}"
+
+            Requisição GET:
+
+                curl.exe http://localhost:8080/chat/chat-model
+
+                Formatada:
+
+                    curl.exe -i http://localhost:8080/chat/chat-model
+
+            Requisição POST com JSON no corpo:
+
+                curl.exe -X POST http://localhost:8080/chat/chat-model -H "Content-Type: application/json" -d "{\"prompt\": \"Gere um orçamento\"}"
+
+    Pelo plugin REST Client:
+
+        GET:
+
+            http://localhost:8080/caminho-do-seu-endpoint
+
+                http://localhost:8080/chat/chat-model
+
+        POST:
+
+            http://localhost:8080/caminho-do-seu-endpoint
+
+                http://localhost:8080/chat/chat-model
+
+            Com JSON no corpo:
+
+                {
+                    "prompt": "Gere um orçamento"
+                }
+
+            Gerar um áudio de teste e salvar o retorno no diretório:
+
+                curl.exe -X POST http://localhost:8080/speech -H "Content-Type: application/json" --data-raw  "{"text":"Ola, tudo bem?"}" --o "C:\Users\marin\Documents\MEGA\Projetos\Clones\Santander 2026 - AI Java Back end\budgeting\src\test\resources\audio\audio.mp3"
+
+
+Chat Client API
+
+    Chat que da suporte a mais coisas, mas sempre usa o chat model.
+
+Tool calling/Function calling
+
+    Uma maneira de interagir com APIs externas/ferramentas, para trazer mais contexto e mais detalhes para o chat client.
+    Em vez de chamar a LLM para resolver algo, vai chamar uma ferramenta que criou, que pode ser um metodo ou uma função.
+    Ter como adicionar ao chat client maneiras de interagir com APIs externas.
+
+Transcription API
+
+    Para áudio.
+
+        POST pelo terminal:
+
+            curl.exe -X POST "http://localhost:8080/api/transcribe" -F "file=@src/test/resources/audio/Audio1.mp3
+
+Speech API
+
+    Sintetiza, criando um audio.
+
+        POST pelo terminal:
+
+            curl.exe -X POST "http://localhost:8080/api/speech" -F "file=@src/test/resources/audio/Audio1.mp3"
+
+
+UseCase em application
+
+    Tenha o principio de responsabilidade unica.
+
+
+Gerenciar o container pelo terminal
+
+Crie o arquivo "docker-compose.yml" na pasta inicial
+
+    Abre o Docker Desktop
+
+    Suba o banco:
+
+        docker.exe compose up -d
+
+        Veja no Docker Desktop se apareceu o novo container
+
+    Ver se o container está rodando e saudável:
+
+        docker.exe compose ps
+
+
+    Ver os logs do MySQL:
+
+        docker.exe compose logs -f
+
+    Parar o container:
+
+        docker.exe compose down
+
+    Iniciar a aplicação:
+
+        .\gradlew.bat bootRun
+
+
+Para ver o banco de dados
+
+    Baixar plugin Database Navigator
+
+    Precisa fazer o cadastro manual da conexão, pois nao detecta automaticamente do Docker
