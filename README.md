@@ -40,10 +40,11 @@
 ## 💻 Tecnologias utilizadas
 
 <!-- * [Kotlin](https://kotlinlang.org/) -->
-* [DIO Agent](https://github.com/MarinaGV93/dio-agent)
 * [Java](https://www.java.com/pt-BR/)
 * [JSON](https://www.json.org/json-en.html)
 * [Spring Boot](https://spring.io/projects/spring-boot)
+* [DIO Agent](https://github.com/MarinaGV93/dio-agent)
+* [Google Antigravity](https://antigravity.google)
 
 <br>
 
