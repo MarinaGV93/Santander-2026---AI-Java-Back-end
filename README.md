@@ -25,8 +25,8 @@
 
 
 [![GitHub](https://img.shields.io/badge/GitHub-4fa8fb?style=plastic&logo=github&logoColor=white)](https://github.com/MarinaGV93)
-[![Linkedin](https://img.shields.io/badge/Linkedin-4fa8fb?style=plastic&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/marinagvale?trk=public_profile_browsemap)
-[![License](https://img.shields.io/badge/License-4fa8fb?style=plastic&logo=cachet&logoColor=white)](https://github.com/MarinaGV93/Santander-Ada/blob/master/LICENSE)
+[![Linkedin](https://img.shields.io/badge/Linkedin-4fa8fb?style=plastic&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marinagolaovale)
+[![License](https://img.shields.io/badge/License-4fa8fb?style=plastic&logo=cachet&logoColor=white)](https://github.com/MarinaGV93/Santander-2026---AI-Java-Back-end/blob/main/LICENSE)
 <!--
 [![Git](https://img.shields.io/badge/GIT-4fa8fb?style=plastic&logo=git&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/Git)
 [![HTML](https://img.shields.io/badge/HTML-4fa8fb?style=plastic&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
